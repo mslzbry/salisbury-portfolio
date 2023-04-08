@@ -1,0 +1,50 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #064273;
+}
+  
+li {
+    float:right;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #1da2d8;
+}
+
+#title {
+    font-size: x-large;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: #76b6c4;
+    color: white;
+} 
+
+#banner {
+    width: 100%;
+    background-position: center;
+}
+
+.banner-with-text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-right-text {
+    position: absolute;
+    bottom: 20px;
+    right: 26px;
+  }  
