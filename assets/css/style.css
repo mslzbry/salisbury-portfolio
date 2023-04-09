@@ -1,5 +1,6 @@
 * {
     font-family: 'Open Sans', sans-serif;
+    color: #004065;
 }
 
 ul {
@@ -149,6 +150,10 @@ aside {
 
 #work-together-spacing {
     margin-bottom: 0px;
+}
+
+span a:link {
+    color: #004065;
 }
 
 span a:visited{
