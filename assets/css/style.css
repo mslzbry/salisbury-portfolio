@@ -1,35 +1,43 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 14px 16px;
     overflow: hidden;
-    background-color: #064273;
+    background-color: #2694ab;
 }
   
 li {
     float:right;
+    font-size:x-large;
 }
   
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 28px 16px;
     text-decoration: none;
 }
   
 li a:hover {
-    background-color: #1da2d8;
+    text-decoration:underline #ea7070;
+
 }
 
 #title {
-
+    font-size:xx-large;
+    font-family: 'Cedarville Cursive', cursive;
     float: left;
     display: block;
     text-align: center;
     padding: 14px 16px;
-    background-color: #76b6c4;
-    color: white;
+    background-color: #004065;
+    color: #F0FDFA;
+    
 } 
 
 #banner {
@@ -40,15 +48,93 @@ li a:hover {
 .banner-with-text {
     position: relative;
     text-align: center;
-    color: white;
+    color: #F0FDFA;
 }
 
 .bottom-right-text {
+    font-size: medium;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    right: 11px;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🏄</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  }  
+
+#pic {
     position: absolute;
     bottom: 20px;
-    right: 26px;
-  }  
-  
-  body {
+    left: 26px;
+    height: auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #F0FDFA;
+}
+
+@media (min-width:320px)  { 
+    #pic {
+        position: absolute;
+        bottom: 20px;
+        left: 26px;
+        max-width: 60px;
+        height: auto;
+        
+    }
+}
+@media (min-width:801px)  { 
+    #pic {
+        position: absolute;
+        bottom: 20px;
+        left: 26px;
+        max-width: 100px;
+        height: auto;
+        
+    }
+}
+@media (min-width:1025px) { 
+    #pic {
+        position: absolute;
+        bottom: 45px;
+        left: 26px;
+        max-width: 150px;
+        height: auto;
+        
+    }
+}
+@media (min-width:1281px) { 
+    #pic {
+        position: absolute;
+        bottom: 20px;
+        left: 26px;
+        max-width: 150px;
+        height: auto;
+        
+    }
+}
+
+body {
     margin: 0;
   }
+
+ .content {
+
+    display: flex;
+    background-color: #F0FDFA;
+     
+  }
+
+aside {
+    
+    text-align: right;
+    color: #004065;
+    background-color: #F0FDFA;
+    padding: 14px 16px;
+    width: 300px;
+
+}
+
+ @media all {
+    .info { flex: 3 0px; }
+    .aside1 { order: 1; } 
+    .info { order: 2; }
+  }
+
