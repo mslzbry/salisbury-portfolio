@@ -48,10 +48,10 @@ li a:hover {
 .banner-with-text {
     position: relative;
     text-align: center;
-    color: #F0FDFA;
 }
 
 .bottom-right-text {
+    color: #F0FDFA;
     font-size: medium;
     font-weight: bold;
     position: absolute;
