@@ -24,18 +24,17 @@ li a {
 }
   
 li a:hover {
-    text-decoration:underline #ea7070;
-
+    text-decoration:underline #ea7070 3.5px;    
 }
 
 #title {
     font-size:xx-large;
-    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Open Sans', sans-serif;
     float: left;
     display: block;
     text-align: center;
     padding: 14px 16px;
-    background-color: #004065;
+    background-color: #2f7798;
     color: #F0FDFA;
     
 } 
@@ -68,6 +67,7 @@ li a:hover {
     border-radius: 50%;
     border-style: solid;
     border-color: #F0FDFA;
+    border-width: 2px;
 }
 
 @media (min-width:320px)  { 
@@ -77,7 +77,6 @@ li a:hover {
         left: 26px;
         max-width: 60px;
         height: auto;
-        
     }
 }
 @media (min-width:801px)  { 
@@ -113,23 +112,33 @@ li a:hover {
 
 body {
     margin: 0;
+    background-color: #F0FDFA
   }
 
  .content {
 
     display: flex;
     background-color: #F0FDFA;
-     
+    /*margin-right: 300px;*/
+    margin-right: 10vh;
   }
 
 aside {
-    
     text-align: right;
     color: #004065;
     background-color: #F0FDFA;
     padding: 14px 16px;
-    width: 300px;
+    /*width: 300px;*/
+    width: 30vh;
 
+}
+
+.info p {
+    text-align: left;
+}
+
+.info {
+    margin-top: 26px;
 }
 
  @media all {
@@ -138,3 +147,33 @@ aside {
     .info { order: 2; }
   }
 
+#work-together-spacing {
+    margin-bottom: 0px;
+}
+
+span a:visited{
+    color:#ea7070;  
+}
+
+.container {
+	position: relative;
+	display: flex;
+	flex-flow: row wrap;
+}
+.item {
+	box-sizing: border-box;
+	padding: 1vh;
+	flex: 1;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+@media (max-width:500px)  { 
+    .item {
+		flex-basis: 100%;
+	}
+}
+
+.projecttile {
+    max-height:100%;
+    max-width:100%;
+}
