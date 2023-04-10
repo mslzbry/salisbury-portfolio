@@ -3,39 +3,38 @@
     color: #004065;
 }
 
-ul {
+.nav-bar {
     list-style-type: none;
     margin: 0;
     padding: 14px 16px;
     overflow: hidden;
-    background-color: #2694ab;
+    background-image: linear-gradient(to bottom right,#ea7070, #077395);
 }
   
-li {
+.nav-bar li {
     float:right;
     font-size:x-large;
 }
   
-li a {
+.nav-bar li a {
     display: block;
-    color: white;
+    color: #F0FDFA;
     text-align: center;
     padding: 28px 16px;
     text-decoration: none;
 }
   
-li a:hover {
+.nav-bar li a:hover {
     text-decoration:underline #ea7070 3.5px;    
 }
 
 #title {
     font-size:xx-large;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Homemade Apple', cursive;
     float: left;
     display: block;
     text-align: center;
     padding: 14px 16px;
-    background-color: #2f7798;
     color: #F0FDFA;
     
 } 
@@ -80,6 +79,7 @@ li a:hover {
         height: auto;
     }
 }
+
 @media (min-width:801px)  { 
     #pic {
         position: absolute;
@@ -90,6 +90,7 @@ li a:hover {
         
     }
 }
+
 @media (min-width:1025px) { 
     #pic {
         position: absolute;
@@ -100,6 +101,7 @@ li a:hover {
         
     }
 }
+
 @media (min-width:1281px) { 
     #pic {
         position: absolute;
@@ -113,7 +115,7 @@ li a:hover {
 
 body {
     margin: 0;
-    background-color: #F0FDFA
+    background-color: #F0FDFA;
   }
 
  .content {
@@ -131,7 +133,6 @@ aside {
     padding: 14px 16px;
     /*width: 300px;*/
     width: 30vh;
-
 }
 
 .info p {
@@ -139,7 +140,7 @@ aside {
 }
 
 .info {
-    margin-top: 26px;
+    margin-top: 2%;
 }
 
  @media all {
@@ -147,10 +148,6 @@ aside {
     .aside1 { order: 1; } 
     .info { order: 2; }
   }
-
-#work-together-spacing {
-    margin-bottom: 0px;
-}
 
 span a:link {
     color: #004065;
@@ -181,4 +178,28 @@ span a:visited{
 .projecttile {
     max-height:100%;
     max-width:100%;
+}
+
+.contact-bar {
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+}
+.info-item {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.info-item a:link {
+    text-decoration: none;
+}
+
+.info-item a:hover {
+    text-decoration:underline #ea7070 3.5px;    
+}
+
+#connect-link:hover {
+    color: #ea7070; 
+    font-weight: bold; 
 }

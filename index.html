@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Homemade+Apple&display=swap" rel="stylesheet">
 </head>
 
 <body>  
-    <ul>
-        <li><a href="#">resume</a></li>
-        <li><a href="#">contact me</a></li>  
-        <li><a href="#">work</a></li>  
-        <li><a href="#">about me</a></li>
+    <ul class="nav-bar">
+        <li><a href="https://www.linkedin.com/in/salisburym/">resume</a></li>
+        <li><a href="#contact-me">contact me</a></li>  
+        <li><a href="#work">work</a></li>  
+        <li><a href="#about-me">about me</a></li>
         <li id="title">Michael E. Salisbury, MSc</li> 
     </ul>
     <section class="banner-with-text">
@@ -27,21 +27,21 @@
     </section>
 
     <section class="content">
-        <aside class="aside1">
+        <aside class="aside1" id="about-me">
             <h2>about me</h2>
         </aside>
   
         <section class="info">
           <p>Multi-disciplinary professional combining a background in tech, science, and communication to see the world through a lens of observation, ideation, and production.</p> 
           <p>I am currently a student at University of California, San Diego in beautiful La Jolla, CA sharpening my skills in HTML, CSS, JavaScript, and the like. Previously, I was a Research and Teaching Associate at the University of Florida, where I focused on STEM communication. I love all forms of project development. From early stages to initial design, to creating technical pipelines and working through blockers, all the way to production.</p> 
-          <p id="work-together-spacing">I’m here to help you solve problems and execute things efficiently!</p>
-          <span><a href="#">So let’s work together.</a></span>
+          <p>I’m here to help you solve problems and execute things efficiently!
+          <a href="https://www.linkedin.com/in/salisburym/" id="connect-link">So let’s connect!</a></p>
           <p>Oh yeah…one more thing - I really enjoy iced coffee and surfing, so don’t hesitate to reach out if you want to grab a cup or catch a wave!</p>  
         </section>
     </section>
 
     <section class="content">
-        <aside class="aside1">
+        <aside class="aside1" id="work">
             <h2>work</h2>
         </aside>
   
@@ -74,12 +74,17 @@
 
 
     <section class="content">
-        <aside class="aside1">
+        <aside class="aside1" id="contact-me">
             <h2>contact me</h2>
         </aside>
       
         <section class="info">
-            <p>386.338.8307 m.slzbry@gmail.com LinkedIn GitHub</p>
+            <ul class="contact-bar">
+                <li class="info-item">386.338.8307</li>
+                <li class="info-item">m.slzbry@gmail.com</li>  
+                <li class="info-item"><a href="https://www.linkedin.com/in/salisburym/">LinkedIn</a></li>  
+                <li class="info-item"><a href="https://github.com/mslzbry">GitHub</a></li>    
+            </ul>
         </section>
     </section>
 
