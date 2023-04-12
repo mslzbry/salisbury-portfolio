@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--foundational head code including google font links and css connection-->
 <head>
     <meta charset="UTF-8" />
     <title>Michael E Salisbury Portfolio</title>
@@ -10,22 +11,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Homemade+Apple&display=swap" rel="stylesheet">
 </head>
 
+<!--body starting with nav bar-->
 <body>  
     <ul class="nav-bar">
-        <li><a href="https://www.linkedin.com/in/salisburym/">resume</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/salisburym/">resume</a></li> <!--link to new tab will be pdf resume eventually-->
         <li><a href="#contact-me">contact me</a></li>  
         <li><a href="#work">work</a></li>  
         <li><a href="#about-me">about me</a></li>
         <li id="title">Michael E. Salisbury, MSc</li> 
     </ul>
     <section class="banner-with-text">
-    <img id="banner" src="assets/images/banner_surf_resized.jpg" alt="surfer standing in the ocean looking off into horizon"/>
-    
-    <img id="pic" src="assets/images/MS_pic.jpeg" alt="headshot of Michael Salisbury"/>
-    
-    <div class="bottom-right-text">thanks for surfing the web to find me!</div>
+        <img id="banner" src="assets/images/banner_surf_resized.jpg" alt="surfer standing in the ocean looking off into horizon"/>
+        
+        <img id="pic" src="assets/images/MS_pic.jpeg" alt="headshot of Michael Salisbury"/>
+        
+        <!--subtitle easter egg emoji text-->
+        <div class="bottom-right-text">thanks for surfing the web to find me!</div>
     </section>
 
+    <!--start of website "meat and potatoes"-->
+    <!--about me section-->
     <section class="content">
         <aside class="aside1" id="about-me">
             <h2>about me</h2>
@@ -35,44 +40,53 @@
           <p>Multi-disciplinary professional combining a background in tech, science, and communication to see the world through a lens of observation, ideation, and production.</p> 
           <p>I am currently a student at University of California, San Diego in beautiful La Jolla, CA sharpening my skills in HTML, CSS, JavaScript, and the like. Previously, I was a Research and Teaching Associate at the University of Florida, where I focused on STEM communication. I love all forms of project development. From early stages to initial design, to creating technical pipelines and working through blockers, all the way to production.</p> 
           <p>I’m here to help you solve problems and execute things efficiently!
-          <a href="https://www.linkedin.com/in/salisburym/" id="connect-link">So let’s connect!</a></p>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/salisburym/" id="connect-link">So let’s connect!</a></p>
           <p>Oh yeah…one more thing - I really enjoy iced coffee and surfing, so don’t hesitate to reach out if you want to grab a cup or catch a wave!</p>  
         </section>
     </section>
-
+    <!--work section-->
     <section class="content">
         <aside class="aside1" id="work">
             <h2>work</h2>
         </aside>
-  
+        <!--steezy thumbnail surf video-->
         <section class="info">
             <div class="container">
-                <div class="item">
-                    <video id="video" style="width:100%;" height="auto;" muted autoplay loop>
-                        <source src="assets/images/sd-surf.MOV" type="video/mp4">
+                <div class="item video-parent" onclick="window.open('https://google.com', '_blank')">
+                    <video id="video" muted autoplay loop>
+                        <source src="assets/images/sd-surf.MOV" type="video/mp4" alt="video of surfers in mission beach san diego, taken from the mission beach jetty">
                       </video>
+                      <div class="video-text">Project 1</div>
                 </div>
             </div>
+            <!--thumbnail San Diego pics-->
             <div class="container">
-                <div class="item">
-                    <img class="projecttile" src="assets/images/sd1.jpg" alt="san diego pic"/>
+                <div class="item" onclick="window.open('https://google.com', '_blank')">
+                    <img class="projecttile" src="assets/images/sd1.jpg" alt="picture looking up a seaside cliff in San Diego"/>
+                    <div class="pic-text1">Project 2</div>
                 </div>
-                <div class="item">
-                    <img class="projecttile" src="assets/images/sd2.jpg" alt="san diego pic"/>
+              
+                <div class="item" onclick="window.open('https://google.com', '_blank')">
+                    <img class="projecttile" src="assets/images/sd2.jpg" alt="picture looking south towards scripps pier in San Diego, taken from a cliffside"/>
+                    <div class="pic-text1">Project 3</div>
                 </div>
+                
             </div>
             <div class="container">
-                <div class="item">
-                    <img class="projecttile" src="assets/images/sd3.jpg" alt="san diego pic"/>
+                <div class="item" onclick="window.open('https://google.com', '_blank')">
+                    <img class="projecttile" src="assets/images/sd3.jpg" alt="picture of a Pacific San Diego beach cove with surfer paddling towards seaside stairs"/>
+                    <div class="pic-text1">Project 4</div>
                 </div>
-                <div class="item">
-                    <img class="projecttile" src="assets/images/sd4.jpg" alt="san diego pic"/>
+
+                <div class="item" onclick="window.open('https://google.com', '_blank')">
+                    <img class="projecttile" src="assets/images/sd4.jpg" alt="picture of the pacific ocean in San Diego with yellow wildflowers in bottom right corner"/>
+                    <div class="pic-text1">Project 5</div>
                 </div>
             </div>
         </section>
     </section>
 
-
+    <!--bottom contact bar with links that open new tabs-->
     <section class="content">
         <aside class="aside1" id="contact-me">
             <h2>contact me</h2>
@@ -82,8 +96,8 @@
             <ul class="contact-bar">
                 <li class="info-item">386.338.8307</li>
                 <li class="info-item">m.slzbry@gmail.com</li>  
-                <li class="info-item"><a href="https://www.linkedin.com/in/salisburym/">LinkedIn</a></li>  
-                <li class="info-item"><a href="https://github.com/mslzbry">GitHub</a></li>    
+                <li class="info-item"><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/salisburym/">LinkedIn</a></li>  
+                <li class="info-item"><a a target="_blank" rel="noopener noreferrer" href="https://github.com/mslzbry">GitHub</a></li>    
             </ul>
         </section>
     </section>
