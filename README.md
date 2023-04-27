@@ -11,7 +11,7 @@ Moving beyond html, I then connected each component to its respective section in
 My primary goals throughout the above processes include: 
 Once the portfolio loads, my name, a recent photo, and links to sections about me, my work, and how to contact me are all visibly and clearly displayed; nav bar links connect to UI that scroll to the corresponding section (e.g. when the link to the section about work is clicked, the UI scrolls to its respective section); the first application in this section is larger in size than others; when the images of the applications are clicked, a link to the deployed application is presented (currently linking to Google as a place holder); when the page is resized, or viewed on various screens and devices, a responsive layout adapts to the viewport. 
 
-Throughout this entire process, I added relevant comments in both the html and css; these comments act as snippets of the general outline of the content herein. Moreover, in css, I took the appropriate action to compile related code in respective sections and notated each (header, body, nav bar, etc.) ultimately organizing them to follow the semantic structure of the HTML elements. 
+Throughout this entire process, I added relevant comments in both the html and css; these comments act as snippets of the general outline of the content herein. Moreover, in css, I took the appropriate action to compile related code in respective sections and notated each (header, body, nav bar, etc.) ultimately orgsanizing them to follow the semantic structure of the HTML elements. 
 
 ### GitHub Link: https://github.com/mslzbry/salisbury-portfolio/settings/pages
 ### Site Link: https://mslzbry.github.io/salisbury-portfolio/
